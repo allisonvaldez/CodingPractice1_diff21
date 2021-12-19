@@ -7,6 +7,10 @@ questions. Since we are on winter holiday, I am using this opportunity to
 relearn concepts and skills learned while taking Data Structures at JHU, and 
 focus on concepts that caused me the most difficulty.
 
+The specifics of this program are as follows: Given an int n, return the 
+absolute difference between n and 21, except return double the absolute 
+difference if n is over 21.
+
 ## Running The Program
 **NOTE: Your IDE may configure the project implicitly as a module. BE SURE TO 
 RUN STEP 4 BELOW BEFORE SUBMITTING LABS** 
