@@ -4,6 +4,8 @@ Warmup-1 Diff21 using CodingBat
 https://codingbat.com/prob/p197466
 """
 
+print(f"program executing")
+
 from sys import stderr
 from typing import TextIO
 
@@ -28,15 +30,19 @@ def read_input(infile: TextIO, outfile: TextIO, self=None) -> None:
 
     while next_line is not None and next_line != "":
         try:
+            for i in next_line:
+                print(f"i is {next_line}")
+                convert = difference(i)
+                print(f"converted into {convert}")
 
         except ValueError:
             print(f'Error parsing "{next_line} for character string',
                   file=stderr)
             continue
         finally:
-            next_line = infile.readline()
+            infile.readline()
 
     outfile.write('\n')
-    for i in range(len(next_line)):
-        outfile.write(" "+ next_line + " " + "\n")
+    for i in range(len(convert)):
+        outfile.write(" " + convert + " " + "\n")
     outfile.write('\n')

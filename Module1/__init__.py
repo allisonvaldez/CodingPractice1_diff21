@@ -14,4 +14,6 @@ process_files function. Note: other scripts and functions are still accessible.
 """
 
 
+print(f"init executing")
+
 from Module1.program import read_input

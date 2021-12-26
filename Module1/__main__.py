@@ -12,6 +12,8 @@ imports. This whole file is basically the java equivalent of: public static
 void main(string args[]), or C's int main();
 """
 
+print(f"main executing")
+
 
 # Generally used to process command line arguments and 'launch' the program
 import argparse
