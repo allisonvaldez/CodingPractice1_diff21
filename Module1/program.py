@@ -43,6 +43,6 @@ def read_input(infile: TextIO, outfile: TextIO, self=None) -> None:
             infile.readline()
 
     outfile.write('\n')
-    for i in range(len(convert)):
-        outfile.write(" " + convert + " " + "\n")
+    for i in range(len(next_line)):
+        outfile.write(" " + next_line + " " + "\n")
     outfile.write('\n')
