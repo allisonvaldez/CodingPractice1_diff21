@@ -44,5 +44,5 @@ def read_input(infile: TextIO, outfile: TextIO, self=None) -> None:
 
     outfile.write('\n')
     for i in range(len(next_line)):
-        outfile.write(" " + next_line + " " + "\n")
+        outfile.write(" " + print(difference("21")) + " " + "\n")
     outfile.write('\n')
